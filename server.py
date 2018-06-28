@@ -24,6 +24,6 @@ while True:
 	print(msg.decode('utf-8'))
 	print("连接地址: %s" % str(addr))
 
-	msg='欢迎访问菜鸟教程！'+ "\r\n"
+	msg='me too'+ "\r\n"
 	clientsocket.send(msg.encode('utf-8'))
 	clientsocket.close()
